@@ -3,7 +3,7 @@
       <q-dialog v-model="prompt" persistent>
         <q-card style="min-width: 350px" class="q-py-md q-px-sm">
          <q-card-section class="q-pt-none">   
-             <div class="text-h6">Holidays For {{month}}</div>
+             <div class="text-h6">Holidays In {{month}}</div>
            </q-card-section>
 
 
