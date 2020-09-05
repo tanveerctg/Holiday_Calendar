@@ -51,8 +51,8 @@
             <q-input filled v-model="reason" label="Reason" :rules="[ val => val && val.length > 0 || 'Please type something']"/>
           </q-card-section>
 
-          <q-card-section class="q-pt-none q-gutter-x-md">
-            <q-btn label="Add" type="submit"/>
+          <q-card-section class="q-pt-none q-gutter-x-sm" v-if="!!type">
+            <q-btn label="Add" type="submit" class="bg-primary text-white"/>
             <q-btn flat label="Cancel" @click="cancelHandler" class="text-red"/>
           </q-card-section>
       </q-form>
